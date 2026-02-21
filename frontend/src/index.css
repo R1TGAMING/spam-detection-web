@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
+
+@theme {
+    --animate-flying: flying 3s ease-in-out infinite;
+
+    @keyframes flying {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-20px);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+}
+
+* {
+    font-family: "Roboto Mono", monospace;
+}
+
+body {
+    background-color: #f9f9f9;
+}
