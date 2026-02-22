@@ -15,13 +15,13 @@ const Header = () => {
             <nav className="flex gap-5 items-center cursor-pointer text-gray-500  font-bold">
                 <ul></ul>
                 <ul className="hover:text-red-500 transition-all duration-400 delay-100 ease-in-out hover:underline underline-offset-1">
-                    Home
+                    <a href="#home">Home</a>
                 </ul>
                 <ul className="hover:text-red-500 transition-all duration-400 delay-100 ease-in-out hover:underline underline-offset-1">
-                    Tentang
+                    <a href="#about">Tentang</a>
                 </ul>
                 <ul className="hover:text-red-500 transition-all duration-400 delay-100 ease-in-out hover:underline underline-offset-1">
-                    Demo
+                    <a href="#demo">Demo</a>
                 </ul>
             </nav>
         </header>
